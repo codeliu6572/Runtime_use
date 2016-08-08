@@ -15,6 +15,10 @@
 		683D9DE41D547DEB007B994F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683D9DE21D547DEB007B994F /* LaunchScreen.storyboard */; };
 		683D9DEF1D547DEB007B994F /* Runtime______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 683D9DEE1D547DEB007B994F /* Runtime______Tests.m */; };
 		683D9DFA1D547DEB007B994F /* Runtime______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 683D9DF91D547DEB007B994F /* Runtime______UITests.m */; };
+		683D9E091D547E0F007B994F /* KeyBoardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 683D9E081D547E0F007B994F /* KeyBoardTool.m */; };
+		683D9E0B1D547EBA007B994F /* closed.png in Resources */ = {isa = PBXBuildFile; fileRef = 683D9E0A1D547EBA007B994F /* closed.png */; };
+		683F9E3C1D586AE9003FD31B /* KeyBoardTool+KeytoolCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 683F9E3B1D586AE9003FD31B /* KeyBoardTool+KeytoolCategory.m */; };
+		683F9E3F1D586BC1003FD31B /* ViewController+VVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 683F9E3E1D586BC1003FD31B /* ViewController+VVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		683D9DF51D547DEB007B994F /* Runtime动态添加属性UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runtime动态添加属性UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		683D9DF91D547DEB007B994F /* Runtime______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Runtime______UITests.m"; sourceTree = "<group>"; };
 		683D9DFB1D547DEB007B994F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683D9E071D547E0F007B994F /* KeyBoardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardTool.h; sourceTree = "<group>"; };
+		683D9E081D547E0F007B994F /* KeyBoardTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardTool.m; sourceTree = "<group>"; };
+		683D9E0A1D547EBA007B994F /* closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closed.png; sourceTree = "<group>"; };
+		683F9E3A1D586AE9003FD31B /* KeyBoardTool+KeytoolCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KeyBoardTool+KeytoolCategory.h"; sourceTree = "<group>"; };
+		683F9E3B1D586AE9003FD31B /* KeyBoardTool+KeytoolCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KeyBoardTool+KeytoolCategory.m"; sourceTree = "<group>"; };
+		683F9E3D1D586BC1003FD31B /* ViewController+VVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+VVC.h"; sourceTree = "<group>"; };
+		683F9E3E1D586BC1003FD31B /* ViewController+VVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+VVC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,13 @@
 				683D9DD81D547DEB007B994F /* AppDelegate.m */,
 				683D9DDA1D547DEB007B994F /* ViewController.h */,
 				683D9DDB1D547DEB007B994F /* ViewController.m */,
+				683D9E071D547E0F007B994F /* KeyBoardTool.h */,
+				683D9E081D547E0F007B994F /* KeyBoardTool.m */,
+				683F9E3A1D586AE9003FD31B /* KeyBoardTool+KeytoolCategory.h */,
+				683F9E3B1D586AE9003FD31B /* KeyBoardTool+KeytoolCategory.m */,
+				683F9E3D1D586BC1003FD31B /* ViewController+VVC.h */,
+				683F9E3E1D586BC1003FD31B /* ViewController+VVC.m */,
+				683D9E0A1D547EBA007B994F /* closed.png */,
 				683D9DDD1D547DEB007B994F /* Main.storyboard */,
 				683D9DE01D547DEB007B994F /* Assets.xcassets */,
 				683D9DE21D547DEB007B994F /* LaunchScreen.storyboard */,
@@ -246,6 +264,7 @@
 				683D9DE41D547DEB007B994F /* LaunchScreen.storyboard in Resources */,
 				683D9DE11D547DEB007B994F /* Assets.xcassets in Resources */,
 				683D9DDF1D547DEB007B994F /* Main.storyboard in Resources */,
+				683D9E0B1D547EBA007B994F /* closed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683D9E091D547E0F007B994F /* KeyBoardTool.m in Sources */,
 				683D9DDC1D547DEB007B994F /* ViewController.m in Sources */,
+				683F9E3C1D586AE9003FD31B /* KeyBoardTool+KeytoolCategory.m in Sources */,
 				683D9DD91D547DEB007B994F /* AppDelegate.m in Sources */,
+				683F9E3F1D586BC1003FD31B /* ViewController+VVC.m in Sources */,
 				683D9DD61D547DEB007B994F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +518,7 @@
 				683D9E001D547DEB007B994F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		683D9E011D547DEB007B994F /* Build configuration list for PBXNativeTarget "Runtime动态添加属性Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +527,7 @@
 				683D9E031D547DEB007B994F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		683D9E041D547DEB007B994F /* Build configuration list for PBXNativeTarget "Runtime动态添加属性UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +536,7 @@
 				683D9E061D547DEB007B994F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong)NSString *hello;
+/**
+ *  交换方法使用
+ */
+- (void)method1;
+- (void)method2;
+
 
 @end
 
