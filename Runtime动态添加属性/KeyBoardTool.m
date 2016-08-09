@@ -72,7 +72,7 @@ static const void *kTextField = "mtTextField";
     /* 动态添加方法：
      第一个参数表示Class cls 类型；
      第二个参数表示待调用的方法名称；
-     第三个参数(IMP)myAddingFunction，IMP一个函数指针，这里表示指定具体实现方法myAddingFunction；
+     第三个参数(IMP)addingMethod，IMP一个函数指针，这里表示指定具体实现方法addingMethod；
      第四个参数表方法的参数，0代表没有参数；
      */
     ViewController *viewVC = [[ViewController alloc]init];
